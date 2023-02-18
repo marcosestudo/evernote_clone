@@ -1,4 +1,4 @@
-Para rodar o projeto deve instalar as dependencia da API e do app
+Para rodar o projeto deve ter instalado o NPM e deve instalar as dependencia da API e do app
 
 Intalando dpendências do app:
   Na pasta javascript_note use o comando no terminal: 
