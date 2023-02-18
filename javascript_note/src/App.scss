@@ -1,0 +1,17 @@
+@charset 'utf-8';
+@import "~bulma/sass/utilities/functions";
+@import "./styles/custom_colors.scss";
+
+// cores configuradas aqui podem ser usadas nas classes do Bulma como "is-custom-purple, por exemplo"
+$custom-colors: (
+  "custom-purple": ($custom-purple),
+  "custom-purple-darker": ($custom-purple-darker),
+  "custon-grey": ($custon-grey),
+  "custon-grey-darker": ($custon-grey-darker)
+);
+
+// Import Bulma styles
+@import "~bulma/bulma";
+
+// Import rbx style fixes
+@import "~rbx/rbx";

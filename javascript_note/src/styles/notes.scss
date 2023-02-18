@@ -1,0 +1,36 @@
+@import './custom_colors.scss';
+
+.notes {
+  height: calc(100% - 70px);
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+// classe do react-burger-menu, veja a documentação para mais classes
+.bm-menu {
+  background-color: #fafafa;
+  padding-top: 10px;
+}
+
+.list-item {
+  padding-bottom: 5px;
+}
+
+.list-item:hover{
+  // padding: 1px;
+  border: 1px solid $custon-grey-darker;
+}
+
+.is-active {
+  background-color: $custon-grey-darker;
+}
+
+.notes-editor {
+  padding: 0px;
+  height: calc(100% - 43px);
+
+  .quill {
+    height: 100%;
+  }
+}

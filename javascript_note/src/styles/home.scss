@@ -1,0 +1,6 @@
+@import './custom_colors.scss';
+
+.home {
+  background-color: $custom-purple;
+  height: calc(100% - 70px); // Vai ocupar 100% da tela menos o espaço ocupado pela navbar
+}
