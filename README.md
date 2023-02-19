@@ -3,8 +3,8 @@
 <hr>
 
 <h3>Instalando dependencias da API:</h3>
-  <p>Como tem dependências descontinuadas que podem gerar erros na instalação no Windows</p>
-  <p>No Windows, na pasta javascript_note_api use o comando no terminal:</p>
+  <p>Como tem dependências descontinuadas que podem gerar erros na instalação no Windows,</p>
+  <p>na pasta javascript_note_api use o comando no terminal:</p>
 
   ```
   npm install --legacy-peer-deps
@@ -16,8 +16,8 @@
   npm install
   ```
 
-<h3>Intalando dpendências do app:</h3>
-  <p>Na pasta javascript_note use o comando no terminal:</p>
+<h3>Intalando dependências do app:</h3>
+  <p>Na pasta javascript_note use o comando no terminal, independentemente do sistema:</p>
 
   ```
   npm install
