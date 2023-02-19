@@ -5,23 +5,23 @@ Para rodar o projeto e instalar as dependências deve ter instalado o [Node](htt
 <hr>
 
 <h3>Instalando dependencias da API:</h3>
+  <p>Na pasta javascript_note_api use o comando no terminal, independentemente do sistema:</p>
+
+  ```
+  npm install
+  ```
+
+<h3>Intalando dependências do app:</h3>
   <p>Como tem dependências descontinuadas que podem gerar erros na instalação no Windows,</p>
-  <p>na pasta javascript_note_api use o comando no terminal:</p>
+  <p>na pasta javascript_note use o comando no terminal:</p>
 
   ```
   npm install --legacy-peer-deps
   ```  
 
-  <p>No Linux, como administrador, use o comando:</p>
+  <p>No Linux, como administrador, na pasta javascript_note use o comando:</p>
 
   ``` 
-  npm install
-  ```
-
-<h3>Intalando dependências do app:</h3>
-  <p>Na pasta javascript_note use o comando no terminal, independentemente do sistema:</p>
-
-  ```
   npm install
   ```
 
@@ -33,8 +33,8 @@ Para rodar o projeto e instalar as dependências deve ter instalado o [Node](htt
   ```
   npm start
   ```
-  <p>Deve aparecer a mensagem: Conectado ao MongoDB, </p>
-  <p>se não apaecer, será necessário iniciar o MongoDB antes de startar a API, para isso, use o comando:</p>
+  <p>Deve aparecer a mensagem: Conectado ao MongoDB </p>
+  <p>No Linux, se não aparecer a mensagem, será necessário iniciar o MongoDB antes de startar a API, para isso, use o comando:</p>
   
   ```
   sudo service mongod start
@@ -49,8 +49,7 @@ Para rodar o projeto e instalar as dependências deve ter instalado o [Node](htt
 
 <hr>
   
-<h3>Visualize o app rodando no navegador em:</h3>
-<h3>localost:3000</h3>
+<h3>Visualize o app rodando no navegador em [localhost:3000](http://localhost:3000/) </h3>
 
 <hr>
 
