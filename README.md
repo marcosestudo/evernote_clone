@@ -10,7 +10,7 @@
   npm install --legacy-peer-deps
   ```  
 
-  <p>No Linux use o comando:</p>
+  <p>No Linux, como administrador, use o comando:</p>
 
   ``` 
   npm install
@@ -25,20 +25,21 @@
 
 <hr>
 
-<h3>Iniciando API:</h3>
-  <p>Em um terminal, na pasta javascript_note_api use o comando:</p>
+<h3>Iniciando a API:</h3>
+  <p>Em um terminal, na pasta javascript_note_api, independentemente do sistema, use o comando:</p>
 
   ```
   npm start
   ```
-  <p>No linux, pode ser necessário iniciar o MongoDB antes de startar a API, para isso, use o comando:</p>
+  <p>Deve aparecer a mensagem: Conectado ao MongoDB, </p>
+  <p>se não apaecer, será necessário iniciar o MongoDB antes de startar a API, para isso, use o comando:</p>
   
   ```
   sudo service mongod start
   ```
 
 <h3>Iniciando a aplicação:</h3>
-  <p>Em outro terminal, na pasta javascript_note use o comando:</p>
+  <p>Em outro terminal, na pasta javascript_note, independentemente do sistema, use o comando:</p>
 
   ```
   npm start
@@ -46,7 +47,8 @@
 
 <hr>
   
-<h2>Visualize o app rodando no navegador em localost:3000</h2>
+<h3>Visualize o app rodando no navegador em:</h3>
+<h3>localost:3000</h3>
 
 <hr>
 
