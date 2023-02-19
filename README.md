@@ -1,4 +1,6 @@
-<h3>Para rodar o projeto e instalar as dependências deve ter instalado o Node, o NPM e o MongoDB</h3>
+<h2> Evernote clone em React</h2>
+
+Para rodar o projeto e instalar as dependências deve ter instalado o [Node](https://nodejs.org/en/) e o [MongoDB](https://www.mongodb.com/)
 
 <hr>
 
@@ -61,5 +63,5 @@
 - [MongoDB](https://www.mongodb.com/)
 - [Express](https://expressjs.com/pt-br/)
 - [Mongoose](https://mongoosejs.com/)
-- [Nodejs](https://nodejs.org/en/)
+- [Node](https://nodejs.org/en/)
 - [NPM](https://www.npmjs.com/)
