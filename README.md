@@ -67,6 +67,8 @@ Para instalar as dependências e rodar o projeto, deve ter instalado o [Node](ht
 
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [React](https://pt-br.reactjs.org/)
+- [ReactRouterDom](https://reactrouter.com/en/main)
+- [ReactBurgerMenu](https://negomi.github.io/react-burger-menu/)
 - [MongoDB](https://www.mongodb.com/)
 - [Express](https://expressjs.com/pt-br/)
 - [Mongoose](https://mongoosejs.com/)
