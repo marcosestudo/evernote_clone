@@ -1,69 +1,71 @@
-<h2> Evernote clone em React</h2>
+# Evernote clone em React
+
+> App clone do Evernote criado para praticar react, mongoDB, nodeJS, html, css e javascript
 
 Para instalar as dependências e rodar o projeto, deve ter instalado o [Node](https://nodejs.org/en/) e o [MongoDB](https://www.mongodb.com/)
 
-<hr>
+## Usando o terminal, siga os passos...
+## 1. Clonando o projeto 
 
-<h3>Instalando dependencias da API:</h3>
-  <p>Na pasta javascript_note_api use o comando no terminal, independentemente do sistema:</p>
+```
+git clone https://github.com/marcosestudo/evernote_clone.git
+```
 
-  ```
-  npm install
-  ```
+## 2. Instalando as dependências
 
-<h3>Intalando dependências do app:</h3>
-  <p>Como tem dependências descontinuadas que podem gerar erros na instalação no Windows,</p>
-  <p>na pasta javascript_note use o comando no terminal:</p>
+Vá para a pasta do app
 
-  ```
-  npm install --legacy-peer-deps
-  ```  
+```
+cd evernote_clone\javascript_note
+```
 
-  <p>No Linux, como administrador, na pasta javascript_note use o comando:</p>
+Instale as dependências
 
-  ``` 
-  npm install
-  ```
+```
+npm install --legacy-peer-deps 
+```
 
-<hr>
+Vá para a pasta da API
 
-<h3>Iniciando a API:</h3>
-  <p>Em um terminal, na pasta javascript_note_api, independentemente do sistema, use o comando:</p>
+```
+cd ..\javascript_note_api\
+```
 
-  ```
-  npm start
-  ```
+Instale as dependências
 
-  <p>Deve aparecer a mensagem: Conectado ao MongoDB </p>
-  <p>No Linux, se não aparecer a mensagem, será necessário iniciar o MongoDB antes de startar a API</p>
-  <p>para isso, encerre a api com o atalho ctrl+c e use o comando:</p>
-  
-  ```
-  sudo service mongod start
-  ```
+```
+npm install
+```
 
-  <p>Em seguida, inicie a api com o comando:</p>
+## Iniciando a API
 
-  ```
-  npm start
-  ```
+No Linux, antes de iniciar a API, será necessário iniciar o Mongo com o seguinte comando, no Windows não será necessário
 
-<h3>Iniciando a aplicação:</h3>
-  <p>Em outro terminal, na pasta javascript_note, independentemente do sistema, use o comando:</p>
+```
+sudo service mongod start
+```
 
-  ```
-  npm start
-  ```
+Inicie a API
 
-<hr>
-  
-- Visualize o app rodando no navegador em [localhost:3000](http://localhost:3000/)
+```
+npm start
+```
 
-<hr>
+## Iniciando o app em um segundo terminal
+
+Deixe o terminal aberto rodando a API e abra um segundo terminal para rodar o app
+
+Navegue até a pasta `javascript_note` e inicie o app
+
+```
+npm start
+```
+
+## Visualize o app rodando no navegador em [localhost:3000](http://localhost:3000/)
 
 ### 🛠 Tecnologias
 
-<p>As seguintes ferramentas foram usadas na construção do projeto:</p>
+As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [React](https://pt-br.reactjs.org/)
