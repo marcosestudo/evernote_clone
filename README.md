@@ -37,7 +37,7 @@ Instale as dependências
 npm install
 ```
 
-## Iniciando a API
+## 3. Iniciando a API
 
 No Linux, antes de iniciar a API, será necessário iniciar o Mongo com o seguinte comando, no Windows não será necessário
 
@@ -51,7 +51,7 @@ Inicie a API
 npm start
 ```
 
-## Iniciando o app em um segundo terminal
+## 4. Iniciando o app em um segundo terminal
 
 Deixe o terminal aberto rodando a API e abra um segundo terminal para rodar o app
 
@@ -61,7 +61,7 @@ Navegue até a pasta `javascript_note` e inicie o app
 npm start
 ```
 
-## Visualize o app rodando no navegador em [localhost:3000](http://localhost:3000/)
+## 5. Visualize o app rodando no navegador em [localhost:3000](http://localhost:3000/)
 
 ### 🛠 Tecnologias
 
