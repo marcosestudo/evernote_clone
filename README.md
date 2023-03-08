@@ -1,6 +1,6 @@
 # Evernote clone em React
 
-> App clone do Evernote criado para praticar react, mongoDB, nodeJS, html, css e javascript
+> App clone do Evernote com autenticação JWT criado para praticar react, mongoDB, nodeJS, html, css e javascript
 
 Para instalar as dependências e rodar o projeto, deve ter instalado o [Node](https://nodejs.org/en/) e o [MongoDB](https://www.mongodb.com/)
 
