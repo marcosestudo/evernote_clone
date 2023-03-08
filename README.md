@@ -70,6 +70,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [JSX](https://pt-br.reactjs.org/docs/introducing-jsx.html)
 - [React](https://pt-br.reactjs.org/)
+- [JWT](https://jwt.io/)
 - [ReactRouterDom](https://reactrouter.com/en/main)
 - [ReactBurgerMenu](https://negomi.github.io/react-burger-menu/)
 - [MongoDB](https://www.mongodb.com/)
